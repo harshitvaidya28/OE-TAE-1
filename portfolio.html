@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUP OF CHAI - Digital Marketing Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fffbeb',
+                            100: '#fef3c7',
+                            200: '#fde68a',
+                            600: '#d97706',
+                            700: '#b45309',
+                            800: '#92400e',
+                            900: '#78350f',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white; color: black; }
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col antialiased selection:bg-amber-100 selection:text-amber-900">
+
+    <!-- TOP HEADER -->
+    <header class="bg-white border-b border-slate-200 py-6 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+                <div class="flex items-center gap-2">
+                    <span class="text-3xl" role="img" aria-label="Chai Cup">☕</span>
+                    <h1 class="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 text-center">CUP OF CHAI</h1>
+                </div>
+                <p class="text-slate-600 font-medium text-sm sm:text-base mt-1">Academic Digital Marketing Portfolio</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-200 shadow-sm no-print">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-14 overflow-x-auto scrollbar-none py-2 gap-2 sm:gap-6 text-xs sm:text-sm font-medium text-slate-600 whitespace-nowrap">
+                <a href="#business" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">Business</a>
+                <span class="text-slate-300">|</span>
+                <a href="#audience" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">Audience</a>
+                <span class="text-slate-300">|</span>
+                <a href="#seo" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">SEO</a>
+                <span class="text-slate-300">|</span>
+                <a href="#social" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">Social Media</a>
+                <span class="text-slate-300">|</span>
+                <a href="#ad" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">Advertisement</a>
+                <span class="text-slate-300">|</span>
+                <a href="#email" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">Email</a>
+                <span class="text-slate-300">|</span>
+                <a href="#suggestions" class="hover:text-amber-800 transition-colors px-2 py-1 rounded hover:bg-amber-50">Suggestions</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+    <main class="flex-grow max-w-6xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-12">
+
+        <!-- 1. BUSINESS PROFILE -->
+        <section id="business" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+                <div class="border-b border-slate-100 pb-4 mb-6">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">01</span>
+                        Business Profile
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">Overview of business operations, contact information, and brand presence.</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <!-- Card 1: Business Name -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-1.5 hover:border-slate-300 transition-colors">
+                        <span class="text-xs font-bold uppercase text-slate-400 block tracking-wide">Business Name</span>
+                        <h3 class="font-bold text-slate-900 text-base">CUP OF CHAI</h3>
+                    </div>
+
+                    <!-- Card 2: Business Type -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-1.5 hover:border-slate-300 transition-colors">
+                        <span class="text-xs font-bold uppercase text-slate-400 block tracking-wide">Business Type</span>
+                        <h3 class="font-bold text-slate-900 text-base">Cafe & Tea House</h3>
+                    </div>
+
+                    <!-- Card 3: Location -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-1.5 hover:border-slate-300 transition-colors">
+                        <span class="text-xs font-bold uppercase text-slate-400 block tracking-wide">Location</span>
+                        <h3 class="font-bold text-slate-900 text-base">Nagpur</h3>
+                    </div>
+
+                    <!-- Card 4: Services -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-1.5 hover:border-slate-300 transition-colors">
+                        <span class="text-xs font-bold uppercase text-slate-400 block tracking-wide">Services</span>
+                        <p class="text-xs text-slate-700 leading-relaxed font-medium">Chai, coffee, snacks, quick bites and a comfortable cafe space.</p>
+                    </div>
+
+                    <!-- Card 5: Email -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-1.5 hover:border-slate-300 transition-colors">
+                        <span class="text-xs font-bold uppercase text-slate-400 block tracking-wide">Email</span>
+                        <a href="mailto:cupofchai@gmail.com" class="text-xs font-medium text-amber-800 hover:underline">cupofchai@gmail.com</a>
+                    </div>
+
+                    <!-- Card 6: Phone -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-1.5 hover:border-slate-300 transition-colors">
+                        <span class="text-xs font-bold uppercase text-slate-400 block tracking-wide">Phone</span>
+                        <p class="text-xs font-medium text-slate-900">+91 XXXXX XXXXX</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. TARGET AUDIENCE -->
+        <section id="audience" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+                <div class="border-b border-slate-100 pb-4 mb-6">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">02</span>
+                        Target Audience
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">Segmentation matrix of core customer demographics and specific behavioural needs.</p>
+                </div>
+
+                <div class="overflow-x-auto border border-slate-200 rounded-lg">
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-slate-100 border-b border-slate-200 text-slate-700 font-semibold uppercase text-xs">
+                            <tr>
+                                <th class="py-3.5 px-4 sm:px-6 w-1/4">Audience</th>
+                                <th class="py-3.5 px-4 sm:px-6 w-1/6">Age</th>
+                                <th class="py-3.5 px-4 sm:px-6">Needs / Behaviour</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-200 text-slate-800">
+                            <tr class="hover:bg-slate-50/80 transition-colors">
+                                <td class="py-4 px-4 sm:px-6 font-semibold text-slate-900">
+                                    <div class="flex items-center gap-2">
+                                        <span class="text-lg">🎓</span>
+                                        College Students
+                                    </div>
+                                </td>
+                                <td class="py-4 px-4 sm:px-6 font-medium text-slate-600">18 – 24</td>
+                                <td class="py-4 px-4 sm:px-6">
+                                    Affordable tea & snack combos, fast reliable Wi-Fi, comfortable group study seating, power charging outlets, active engagement via Instagram & Shorts.
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition-colors">
+                                <td class="py-4 px-4 sm:px-6 font-semibold text-slate-900">
+                                    <div class="flex items-center gap-2">
+                                        <span class="text-lg">💼</span>
+                                        Working Professionals
+                                    </div>
+                                </td>
+                                <td class="py-4 px-4 sm:px-6 font-medium text-slate-600">25 – 40</td>
+                                <td class="py-4 px-4 sm:px-6">
+                                    Quick morning chai/coffee pickup, quiet atmosphere for remote work, premium organic tea blends, healthy light bakery bites, express digital payments.
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition-colors">
+                                <td class="py-4 px-4 sm:px-6 font-semibold text-slate-900">
+                                    <div class="flex items-center gap-2">
+                                        <span class="text-lg">☕</span>
+                                        Couples & Friends
+                                    </div>
+                                </td>
+                                <td class="py-4 px-4 sm:px-6 font-medium text-slate-600">20 – 35</td>
+                                <td class="py-4 px-4 sm:px-6">
+                                    Cozy aesthetic ambiance, evening hangout spot, artisan dessert pairings, photogenic food presentation, relaxed social environment.
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50/80 transition-colors">
+                                <td class="py-4 px-4 sm:px-6 font-semibold text-slate-900">
+                                    <div class="flex items-center gap-2">
+                                        <span class="text-lg">👨‍👩‍👧‍👦</span>
+                                        Families
+                                    </div>
+                                </td>
+                                <td class="py-4 px-4 sm:px-6 font-medium text-slate-600">30 – 55</td>
+                                <td class="py-4 px-4 sm:px-6">
+                                    Clean & hygienic dining environment, kid-friendly beverages & bites, weekend afternoon tea gatherings, courteous staff, easy parking accessibility.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SEO KEYWORDS -->
+        <section id="seo" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+                <div class="border-b border-slate-100 pb-4">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">03</span>
+                        SEO Keywords Strategy
+                    </h2>
+                </div>
+
+                <div class="space-y-6">
+                    <h3 class="text-base font-bold text-slate-900">Suggested keywords:</h3>
+
+                    <!-- Short-Tail Keywords -->
+                    <div class="space-y-3">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500">Short-Tail Keywords</h4>
+                        <div class="flex flex-wrap gap-2.5">
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs font-medium text-slate-800">cafe near me</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs font-medium text-slate-800">chai cafe</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs font-medium text-slate-800">tea cafe</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs font-medium text-slate-800">best cafe</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-slate-100 border border-slate-200 text-xs font-medium text-slate-800">coffee shop</span>
+                        </div>
+                    </div>
+
+                    <!-- Long-Tail Keywords -->
+                    <div class="space-y-3 pt-2">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-500">Long-Tail Keywords</h4>
+                        <div class="flex flex-wrap gap-2.5">
+                            <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-medium text-amber-900">best chai cafe near me</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-medium text-amber-900">affordable chai cafe in Nagpur</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-medium text-amber-900">best cafe for students in Nagpur</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-medium text-amber-900">cafe with snacks near me</span>
+                            <span class="px-3.5 py-1.5 rounded-full bg-amber-50 border border-amber-200 text-xs font-medium text-amber-900">best tea and coffee cafe in Nagpur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SOCIAL MEDIA MARKETING PLAN -->
+        <section id="social" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+                <div class="border-b border-slate-100 pb-4">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">04</span>
+                        Social Media Marketing Plan
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">Interactive sample promotional posts for active channel execution. Select a platform to view its sample post.</p>
+                </div>
+
+                <!-- Interactive Platform Cards Grid -->
+                <div>
+                    <h3 class="text-base font-bold text-slate-900 mb-4 flex items-center gap-2">
+                        <span>📱</span> Sample Promotional Posts (Click Platform to View):
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        
+                        <!-- Instagram Card -->
+                        <button type="button" onclick="openPostModal('instagram')" class="group text-left border border-pink-200 bg-pink-50/40 hover:bg-pink-100/60 hover:border-pink-300 rounded-xl p-5 transition duration-200 focus:outline-none focus:ring-2 focus:ring-pink-500/50 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-2xl">📸</span>
+                                    <span class="text-[11px] font-semibold bg-pink-100 text-pink-800 px-2 py-0.5 rounded-full border border-pink-200">Reel / Carousel</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 group-hover:text-pink-900 transition">Instagram</h4>
+                                <p class="text-xs text-slate-600 mt-1">Campus vibes, student discounts & reel teasers.</p>
+                            </div>
+                            <div class="mt-4 pt-3 border-t border-pink-200/60 flex items-center justify-between text-xs font-semibold text-pink-700 group-hover:translate-x-0.5 transition-transform">
+                                <span>View Sample Post</span>
+                                <span>→</span>
+                            </div>
+                        </button>
+
+                        <!-- Facebook Card -->
+                        <button type="button" onclick="openPostModal('facebook')" class="group text-left border border-blue-200 bg-blue-50/40 hover:bg-blue-100/60 hover:border-blue-300 rounded-xl p-5 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-2xl">👥</span>
+                                    <span class="text-[11px] font-semibold bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full border border-blue-200">Image + Link</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 group-hover:text-blue-900 transition">Facebook</h4>
+                                <p class="text-xs text-slate-600 mt-1">Weekend family combo offers & local community focus.</p>
+                            </div>
+                            <div class="mt-4 pt-3 border-t border-blue-200/60 flex items-center justify-between text-xs font-semibold text-blue-700 group-hover:translate-x-0.5 transition-transform">
+                                <span>View Sample Post</span>
+                                <span>→</span>
+                            </div>
+                        </button>
+
+                        <!-- YouTube Shorts Card -->
+                        <button type="button" onclick="openPostModal('youtube')" class="group text-left border border-red-200 bg-red-50/40 hover:bg-red-100/60 hover:border-red-300 rounded-xl p-5 transition duration-200 focus:outline-none focus:ring-2 focus:ring-red-500/50 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-2xl">🎥</span>
+                                    <span class="text-[11px] font-semibold bg-red-100 text-red-800 px-2 py-0.5 rounded-full border border-red-200">Vertical Video</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 group-hover:text-red-900 transition">YouTube Shorts</h4>
+                                <p class="text-xs text-slate-600 mt-1">15s steaming kulhad chai pouring video preview.</p>
+                            </div>
+                            <div class="mt-4 pt-3 border-t border-red-200/60 flex items-center justify-between text-xs font-semibold text-red-700 group-hover:translate-x-0.5 transition-transform">
+                                <span>View Sample Post</span>
+                                <span>→</span>
+                            </div>
+                        </button>
+
+                        <!-- Google Business Profile Card -->
+                        <button type="button" onclick="openPostModal('google')" class="group text-left border border-emerald-200 bg-emerald-50/40 hover:bg-emerald-100/60 hover:border-emerald-300 rounded-xl p-5 transition duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-3">
+                                    <span class="text-2xl">📍</span>
+                                    <span class="text-[11px] font-semibold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-full border border-emerald-200">Business Update</span>
+                                </div>
+                                <h4 class="font-bold text-slate-900 group-hover:text-emerald-900 transition">Google Business</h4>
+                                <p class="text-xs text-slate-600 mt-1">Mid-week chai + snack combo offer & directions CTA.</p>
+                            </div>
+                            <div class="mt-4 pt-3 border-t border-emerald-200/60 flex items-center justify-between text-xs font-semibold text-emerald-700 group-hover:translate-x-0.5 transition-transform">
+                                <span>View Sample Post</span>
+                                <span>→</span>
+                            </div>
+                        </button>
+
+                    </div>
+                </div>
+
+                <!-- Sample Weekly Plan Subsection -->
+                <div class="pt-6 border-t border-slate-200 space-y-4">
+                    <h3 class="text-base font-bold text-slate-900 flex items-center gap-2">
+                        <span>📅</span> Sample Weekly Plan:
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                        
+                        <!-- Monday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Monday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Instagram Reel – Chai making / cafe ambience
+                            </p>
+                        </div>
+
+                        <!-- Tuesday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Tuesday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Student Offer Post – Special discount for students
+                            </p>
+                        </div>
+
+                        <!-- Wednesday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Wednesday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Chai & Snack Combo – Promotional post
+                            </p>
+                        </div>
+
+                        <!-- Thursday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Thursday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Customer Story – Customer experience / testimonial
+                            </p>
+                        </div>
+
+                        <!-- Friday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Friday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Weekend Offer Reel – Special CUP OF CHAI offer
+                            </p>
+                        </div>
+
+                        <!-- Saturday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Saturday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Cafe Vibes – Behind-the-scenes / brewing content
+                            </p>
+                        </div>
+
+                        <!-- Sunday -->
+                        <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-4.5 space-y-1.5 hover:border-slate-300 transition-colors">
+                            <h4 class="font-bold text-slate-900 text-sm">Sunday</h4>
+                            <p class="text-xs text-slate-600 leading-relaxed">
+                                Family Tea Time – Family combo / weekend promotion
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. ADVERTISEMENT -->
+        <section id="ad" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+                <div class="border-b border-slate-100 pb-4 mb-6">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">05</span>
+                        Promotional Advertisement Creative
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">Single clean promotional ad framework including headline, offer, key copy, and call-to-action.</p>
+                </div>
+
+                <!-- Advertisement Card Mockup -->
+                <div class="max-w-2xl mx-auto border-2 border-dashed border-amber-300 bg-amber-50/40 rounded-xl p-6 sm:p-8 text-center space-y-6 relative overflow-hidden">
+                    <div class="inline-block bg-amber-800 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full mb-1">
+                        Featured Promotional Ad
+                    </div>
+
+                    <div class="space-y-2">
+                        <h3 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">☕ CUP OF CHAI</h3>
+                        <p class="text-lg sm:text-xl font-semibold text-amber-800">
+                            "Fuel Your Day with Authentic, Hand-Brewed Kulhad Chai!"
+                        </p>
+                    </div>
+
+                    <div class="bg-white p-4 rounded-lg border border-amber-200 shadow-sm max-w-lg mx-auto">
+                        <span class="text-xs font-bold uppercase text-amber-700 tracking-wide block mb-1">Special Promotional Offer</span>
+                        <p class="text-xl font-extrabold text-amber-900">BUY 1 GET 1 FREE</p>
+                        <p class="text-xs font-medium text-slate-600 mt-0.5">On all Special Tea Blends (Every Tue & Thu | 2 PM – 6 PM)</p>
+                    </div>
+
+                    <p class="text-sm text-slate-700 max-w-md mx-auto leading-relaxed">
+                        Indulge in rich, aromatic spices brewed fresh daily. Pair your favorite chai with our signature samosas, maska bun, or fresh cookies in a cozy, quiet study lounge.
+                    </p>
+
+                    <div class="pt-2">
+                        <a href="#business" onclick="alert('Promo Code CHAI50 applied! Show this at the counter for your 20% discount.'); return false;" class="inline-block bg-amber-800 hover:bg-amber-900 text-white font-bold text-sm px-6 py-3 rounded-lg transition-colors shadow">
+                            Visit Us Today or Order Online for 20% Off!
+                        </a>
+                        <p class="text-[11px] text-slate-500 mt-2">Use Promo Code: <span class="font-mono font-bold text-slate-700">CHAI2026</span> at checkout</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. EMAIL MARKETING -->
+        <section id="email" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+                <div class="border-b border-slate-100 pb-4 mb-6">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">06</span>
+                        Email Marketing Campaign
+                    </h2>
+                    <p class="text-sm text-slate-500 mt-1">Professional welcome email template structured with subject line, greeting, offer, message, and CTA.</p>
+                </div>
+
+                <!-- Email Client Mockup -->
+                <div class="max-w-3xl mx-auto border border-slate-300 rounded-xl overflow-hidden shadow-sm bg-white">
+                    <!-- Email Header Bar -->
+                    <div class="bg-slate-100 px-4 py-3 border-b border-slate-200 text-xs text-slate-600 space-y-1 font-mono">
+                        <p><span class="font-semibold text-slate-800">Subject:</span> ☕ Special Welcome Gift: Enjoy 20% OFF Your First Visit at Cup of Chai!</p>
+                        <p><span class="font-semibold text-slate-800">From:</span> Cup of Chai &lt;welcome@cupofchai.com&gt;</p>
+                        <p><span class="font-semibold text-slate-800">To:</span> New Subscriber &lt;customer@email.com&gt;</p>
+                    </div>
+
+                    <!-- Email Body Content -->
+                    <div class="p-6 sm:p-8 space-y-6 text-sm text-slate-800 leading-relaxed font-sans">
+                        <p class="font-semibold text-base text-slate-900">Dear Chai Lover,</p>
+
+                        <p>We are thrilled to welcome you to the <strong>Cup of Chai</strong> family!</p>
+
+                        <p>Whether you need an energizing morning boost, a quiet workspace with fast Wi-Fi to finish your project, or a cozy evening corner to catch up with friends, our doors are open for you.</p>
+
+                        <!-- Highlight Offer Box -->
+                        <div class="bg-amber-50 border border-amber-200 rounded-lg p-5 text-center my-6 space-y-2">
+                            <span class="text-xs uppercase font-bold text-amber-800 tracking-wider block">Exclusive Welcome Offer</span>
+                            <p class="text-lg font-bold text-amber-900">Enjoy 20% OFF Your Entire First Order</p>
+                            <p class="text-xs text-slate-600">Use Promo Code below in-store or online:</p>
+                            <div class="inline-block bg-white border border-amber-300 px-4 py-1.5 rounded font-mono font-bold text-amber-900 text-sm tracking-widest mt-1">
+                                WELCOME20
+                            </div>
+                        </div>
+
+                        <p>Come taste our freshly brewed spiced teas, signature kulhad chai, and warm oven-fresh snacks brewed daily with authentic ingredients.</p>
+
+                        <div class="text-center pt-2 pb-4">
+                            <button onclick="alert('Welcome Voucher Code: WELCOME20 saved to clipboard!');" class="bg-amber-800 hover:bg-amber-900 text-white font-semibold text-sm px-6 py-2.5 rounded-lg transition-colors inline-block">
+                                Claim Your 20% Discount Voucher
+                            </button>
+                        </div>
+
+                        <div class="border-t border-slate-200 pt-4 text-xs text-slate-600 space-y-1">
+                            <p class="font-semibold text-slate-800">Warm regards,</p>
+                            <p class="font-medium text-slate-900">The Cup of Chai Team</p>
+                            <p>📍 124 College Avenue, University District</p>
+                            <p>🌐 <a href="#business" class="text-amber-800 underline">www.cupofchai.com</a> | 📧 contact@cupofchai.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. SUGGESTIONS FOR IMPROVEMENT -->
+        <section id="suggestions" class="scroll-mt-20">
+            <div class="bg-white rounded-xl border border-slate-200 p-6 sm:p-8 shadow-sm">
+                <div class="border-b border-slate-200 pb-4 mb-6">
+                    <h2 class="text-xl sm:text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <span class="bg-amber-100 text-amber-900 text-sm font-semibold px-2.5 py-1 rounded">07</span>
+                        Suggestions for Improvement
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+
+                    <!-- Card 1: Google Business Profile -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-2.5 hover:border-slate-300 transition-colors">
+                        <h3 class="font-bold text-slate-900 text-sm">Google Business Profile</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Keep the profile updated with cafe photos, menu, offers, opening hours and customer reviews.
+                        </p>
+                    </div>
+
+                    <!-- Card 2: Customer Reviews -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-2.5 hover:border-slate-300 transition-colors">
+                        <h3 class="font-bold text-slate-900 text-sm">Customer Reviews</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Encourage satisfied customers to leave genuine reviews and respond professionally to feedback.
+                        </p>
+                    </div>
+
+                    <!-- Card 3: Local SEO -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-2.5 hover:border-slate-300 transition-colors">
+                        <h3 class="font-bold text-slate-900 text-sm">Local SEO</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Use location-based keywords such as “cafe near me”, “best chai in Nagpur” and other relevant local search terms.
+                        </p>
+                    </div>
+
+                    <!-- Card 4: Lead Generation -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-2.5 hover:border-slate-300 transition-colors">
+                        <h3 class="font-bold text-slate-900 text-sm">Lead Generation</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Add WhatsApp contact options, inquiry forms and simple offers to encourage customers to connect with CUP OF CHAI.
+                        </p>
+                    </div>
+
+                    <!-- Card 5: Content Marketing -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-2.5 hover:border-slate-300 transition-colors">
+                        <h3 class="font-bold text-slate-900 text-sm">Content Marketing</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Post chai-making videos, cafe ambience, customer moments, new menu items and special offers regularly.
+                        </p>
+                    </div>
+
+                    <!-- Card 6: Analytics -->
+                    <div class="bg-slate-50/70 border border-slate-200 rounded-xl p-5 space-y-2.5 hover:border-slate-300 transition-colors">
+                        <h3 class="font-bold text-slate-900 text-sm">Analytics</h3>
+                        <p class="text-xs text-slate-600 leading-relaxed">
+                            Track website visits, social media engagement, customer inquiries, campaign performance and conversions.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 no-print mt-12">
+        <div class="max-w-6xl mx-auto px-4 text-center space-y-2">
+            <p class="font-medium text-slate-300">© 2026 CUP OF CHAI | Digital Marketing Portfolio</p>
+            <p class="text-slate-500">Academic Project Presentation • Built with HTML & Tailwind CSS</p>
+        </div>
+    </footer>
+
+    <!-- SAMPLE PROMOTIONAL POST MODAL POPUP -->
+    <div id="postModal" class="fixed inset-0 bg-slate-900/60 backdrop-blur-xs z-50 flex items-center justify-center p-4 hidden" onclick="handleBackdropClick(event)">
+        <div class="bg-white rounded-xl border border-slate-200 shadow-2xl max-w-lg w-full overflow-hidden flex flex-col max-h-[90vh] transition-all" onclick="event.stopPropagation()">
+            
+            <!-- Modal Header -->
+            <div id="modalHeader" class="px-6 py-4 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+                <div class="flex items-center gap-2.5">
+                    <span id="modalIcon" class="text-xl">📸</span>
+                    <div>
+                        <h3 id="modalTitle" class="font-bold text-slate-900 text-base leading-snug">Platform Post Sample</h3>
+                        <p id="modalSubtitle" class="text-xs text-slate-500">Sample Promotional Content</p>
+                    </div>
+                </div>
+                <button type="button" onclick="closePostModal()" class="text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 p-1 rounded-lg text-sm transition font-bold flex items-center justify-center w-8 h-8 focus:outline-none" aria-label="Close modal">
+                    ✕
+                </button>
+            </div>
+
+            <!-- Modal Body (Content) -->
+            <div id="modalBody" class="p-6 overflow-y-auto space-y-4 text-sm text-slate-700">
+                <!-- Dynamically injected post preview content -->
+            </div>
+
+            <!-- Modal Footer (Platform Switcher + Close Button) -->
+            <div class="px-6 py-3.5 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3 text-xs">
+                <div class="flex items-center gap-1.5 flex-wrap">
+                    <span class="text-slate-500 text-[11px] font-medium mr-1">Switch:</span>
+                    <button type="button" onclick="openPostModal('instagram')" class="px-2.5 py-1 rounded-md bg-pink-100 hover:bg-pink-200 text-pink-800 font-semibold transition text-[11px]">Instagram</button>
+                    <button type="button" onclick="openPostModal('facebook')" class="px-2.5 py-1 rounded-md bg-blue-100 hover:bg-blue-200 text-blue-800 font-semibold transition text-[11px]">Facebook</button>
+                    <button type="button" onclick="openPostModal('youtube')" class="px-2.5 py-1 rounded-md bg-red-100 hover:bg-red-200 text-red-800 font-semibold transition text-[11px]">YouTube</button>
+                    <button type="button" onclick="openPostModal('google')" class="px-2.5 py-1 rounded-md bg-emerald-100 hover:bg-emerald-200 text-emerald-800 font-semibold transition text-[11px]">Google</button>
+                </div>
+                <button type="button" onclick="closePostModal()" class="bg-slate-800 hover:bg-slate-900 text-white font-medium px-3.5 py-1.5 rounded-lg transition text-xs flex items-center gap-1">
+                    <span>Close</span>
+                    <span>✕</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vanilla JS for Navigation Scroll Highlight & Interactive Modal -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    if (pageYOffset >= (sectionTop - 120)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('text-amber-800', 'font-bold', 'bg-amber-50');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('text-amber-800', 'font-bold', 'bg-amber-50');
+                    }
+                });
+            });
+        });
+
+        // Sample Promotional Posts Data
+        const postModalData = {
+            instagram: {
+                icon: '📸',
+                title: 'Instagram Promotional Post',
+                subtitle: 'Reel / Carousel Format',
+                content: `
+                    <div class="border border-pink-200 bg-pink-50/30 rounded-xl p-5 space-y-4">
+                        <div class="flex items-center justify-between border-b border-pink-100 pb-3">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-pink-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">CC</div>
+                                <div>
+                                    <p class="font-bold text-slate-900 text-xs">cupofchai_official</p>
+                                    <p class="text-[10px] text-slate-500">Sponsored • Campus & Cafe</p>
+                                </div>
+                            </div>
+                            <span class="text-[11px] bg-pink-100 text-pink-800 font-semibold px-2.5 py-0.5 rounded-full border border-pink-200">Reel / Carousel</span>
+                        </div>
+
+                        <div class="bg-white p-4.5 rounded-lg border border-pink-100 text-xs text-slate-700 leading-relaxed space-y-3 shadow-xs">
+                            <p class="font-bold text-sm text-slate-900">“Hot Chai + Campus Vibes = Perfection! ☕✨”</p>
+                            <p>Need a study break or a quiet corner to chill with friends? Drop by <strong>CUP OF CHAI</strong> today and show your Student ID to get <span class="bg-amber-100 text-amber-900 font-bold px-1.5 py-0.5 rounded">15% OFF</span> your favorite Kulhad Chai! 🎓☕</p>
+                            <p class="text-slate-600">Unwind in our study-friendly cafe atmosphere with free high-speed Wi-Fi, ambient music, and cozy seating designed for productivity & relaxing.</p>
+                            <div class="pt-2 border-t border-slate-100 text-pink-700 font-medium">
+                                📍 124 College Avenue | Free High-Speed Wi-Fi Always
+                            </div>
+                            <p class="text-slate-400 font-mono text-[11px] leading-normal pt-1">
+                                #CupOfChai #CampusVibes #ChaiLover #StudentDiscount #KulhadChai #StudySpot
+                            </p>
+                        </div>
+                    </div>
+                `
+            },
+            facebook: {
+                icon: '👥',
+                title: 'Facebook Promotional Post',
+                subtitle: 'Image + Link Format',
+                content: `
+                    <div class="border border-blue-200 bg-blue-50/30 rounded-xl p-5 space-y-4">
+                        <div class="flex items-center justify-between border-b border-blue-100 pb-3">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">CC</div>
+                                <div>
+                                    <p class="font-bold text-slate-900 text-xs">Cup of Chai - College Ave</p>
+                                    <p class="text-[10px] text-slate-500">Community & Family Cafe</p>
+                                </div>
+                            </div>
+                            <span class="text-[11px] bg-blue-100 text-blue-800 font-semibold px-2.5 py-0.5 rounded-full border border-blue-200">Image + Link</span>
+                        </div>
+
+                        <div class="bg-white p-4.5 rounded-lg border border-blue-100 text-xs text-slate-700 leading-relaxed space-y-3 shadow-xs">
+                            <p class="font-bold text-sm text-slate-900">“Weekend Family Tea Time at Cup of Chai! ☕”</p>
+                            <p>Looking for the perfect neighborhood spot to relax with family and friends this weekend? Enjoy our signature 5-spice masala chai paired with warm, freshly baked samosas and maska bun.</p>
+                            <div class="p-3 bg-blue-50 border border-blue-200 rounded-lg text-blue-900 font-medium">
+                                👉 Enjoy <strong class="text-blue-950 font-bold">20% OFF Family Combo Platter</strong> this Saturday & Sunday!
+                            </div>
+                            <div class="pt-2 border-t border-slate-100 text-blue-700">
+                                📍 124 College Ave. Open till 10 PM. See full menu at <a href="#" onclick="return false;" class="underline font-semibold">www.cupofchai.com</a>
+                            </div>
+                        </div>
+                    </div>
+                `
+            },
+            youtube: {
+                icon: '🎥',
+                title: 'YouTube Shorts Post',
+                subtitle: 'Vertical Video Concept Preview',
+                content: `
+                    <div class="border border-red-200 bg-red-50/30 rounded-xl p-5 space-y-4">
+                        <div class="flex items-center justify-between border-b border-red-100 pb-3">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-red-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">CC</div>
+                                <div>
+                                    <p class="font-bold text-slate-900 text-xs">Cup of Chai Shorts</p>
+                                    <p class="text-[10px] text-slate-500">Vertical Video Concept</p>
+                                </div>
+                            </div>
+                            <span class="text-[11px] bg-red-100 text-red-800 font-semibold px-2.5 py-0.5 rounded-full border border-red-200">Vertical Video</span>
+                        </div>
+
+                        <!-- Video Concept Banner -->
+                        <div class="relative bg-slate-900 rounded-lg overflow-hidden p-6 text-center text-white space-y-2 border border-slate-800">
+                            <div class="w-11 h-11 rounded-full bg-red-600 text-white flex items-center justify-center mx-auto shadow-md">
+                                <span class="text-lg pl-0.5">▶</span>
+                            </div>
+                            <p class="text-xs font-semibold text-red-300">[ 15-Second Video Concept Preview ]</p>
+                            <p class="text-[11px] text-slate-300 italic max-w-xs mx-auto">"Steaming hot spiced tea pouring into traditional clay kulhad cups with lo-fi cafe music."</p>
+                        </div>
+
+                        <div class="bg-white p-4.5 rounded-lg border border-red-100 text-xs text-slate-700 leading-relaxed space-y-3 shadow-xs">
+                            <p class="font-semibold text-slate-900">The secret behind our daily signature brew? Freshly crushed cardamom, ginger, and love! ☕ Brewed fresh every 30 minutes.</p>
+                            <p class="text-red-700 font-semibold">Have you tried our Special Kulhad Chai yet? Comment your favorite blend!</p>
+                            <p class="text-slate-400 font-mono text-[11px] leading-normal pt-1">
+                                #Shorts #ChaiBrewing #CupOfChai #TeaLovers #StreetStyleChai
+                            </p>
+                        </div>
+                    </div>
+                `
+            },
+            google: {
+                icon: '📍',
+                title: 'Google Business Profile Update',
+                subtitle: 'Business Update / Offer',
+                content: `
+                    <div class="border border-emerald-200 bg-emerald-50/30 rounded-xl p-5 space-y-4">
+                        <div class="flex items-center justify-between border-b border-emerald-100 pb-3">
+                            <div class="flex items-center gap-2.5">
+                                <div class="w-8 h-8 rounded-full bg-emerald-600 text-white font-bold flex items-center justify-center text-xs shadow-xs">GBP</div>
+                                <div>
+                                    <p class="font-bold text-slate-900 text-xs">Cup of Chai Cafe</p>
+                                    <p class="text-[10px] text-slate-500">Google Business Update</p>
+                                </div>
+                            </div>
+                            <span class="text-[11px] bg-emerald-100 text-emerald-800 font-semibold px-2.5 py-0.5 rounded-full border border-emerald-200">Business Update</span>
+                        </div>
+
+                        <div class="bg-white p-4.5 rounded-lg border border-emerald-100 text-xs text-slate-700 leading-relaxed space-y-3 shadow-xs">
+                            <p class="font-bold text-sm text-slate-900">📢 Mid-Week Special: Chai & Snack Combo Offer!</p>
+                            <p>Get any Signature Spiced Chai + Hot Crispy Samosa for just <strong class="text-emerald-800 text-sm">$4.99</strong> every Wednesday & Thursday between 2 PM – 5 PM.</p>
+                            <p class="text-slate-600">📍 <strong>Location:</strong> 124 College Avenue (2 mins walk from Main Library).</p>
+                            <div class="pt-2">
+                                <button type="button" class="inline-flex items-center gap-2 bg-emerald-700 hover:bg-emerald-800 text-white font-medium px-3.5 py-1.5 rounded-lg text-[11px] transition shadow-xs">
+                                    <span>📍</span>
+                                    <span>Get Directions / Call Now</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `
+            }
+        };
+
+        function openPostModal(platformKey) {
+            const data = postModalData[platformKey];
+            if (!data) return;
+
+            document.getElementById('modalIcon').innerText = data.icon;
+            document.getElementById('modalTitle').innerText = data.title;
+            document.getElementById('modalSubtitle').innerText = data.subtitle;
+            document.getElementById('modalBody').innerHTML = data.content;
+
+            const modal = document.getElementById('postModal');
+            modal.classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closePostModal() {
+            const modal = document.getElementById('postModal');
+            modal.classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        function handleBackdropClick(event) {
+            if (event.target.id === 'postModal') {
+                closePostModal();
+            }
+        }
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                closePostModal();
+            }
+        });
+    </script>
+</body>
+</html>
